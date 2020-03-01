@@ -1,7 +1,6 @@
 # CsvImport
 
-## CSV File
-  Content:
+## CSV File Content
 
   Title | Amount
   --- | --- 
