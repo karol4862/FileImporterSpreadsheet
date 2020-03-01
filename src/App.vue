@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CsvImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import CsvImport from './components/CsvImport.vue';
 
 export default {
   name: 'App',
+  data() {
+    return {
+      val: '',
+    };
+  },
   components: {
-    HelloWorld,
+    CsvImport,
   },
 };
 </script>

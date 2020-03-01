@@ -1,24 +1,33 @@
-# csvexport
+# CsvImport
 
-## Project setup
-```
-npm install
-```
+## CSV File
+  Content:
+  | Srele | 12 |
+  | Morele | 9 |
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Example in use
 
-### Compiles and minifies for production
 ```
-npm run build
+  <CsvImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" />
 ```
 
-### Lints and fixes files
+## Output
 ```
-npm run lint
+  data() {
+    return {
+      val:[
+        {
+          name: "Srele",
+          surname: "12"
+        }
+        ...
+      ],
+    };
+  }
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Props
+
+| Name | Description |
+| labels | Name content to variable |
+| separators | What separators the file uses |
