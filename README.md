@@ -3,7 +3,7 @@
 ## CSV File
   Content:
 
-   | 
+  Title | Amount
   --- | --- 
   Srele | 12
   Morele | 9
