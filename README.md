@@ -2,6 +2,7 @@
 
 ## CSV File
   Content:
+
   Srele | 12
   --- | --- 
   Morele | 9
@@ -32,5 +33,4 @@
 Name | Description 
 --- | --- 
 labels | Name content to variable
---- | --- 
 separators | What separators the file uses
