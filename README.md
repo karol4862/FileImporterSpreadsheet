@@ -2,8 +2,8 @@
 
 ## CSV File
   Content:
-  | Srele | 12 |
-  | Morele | 9 |
+  Srele | 12
+  Morele | 9
 
 ## Example in use
 
@@ -28,6 +28,6 @@
 
 ## Props
 
-| Name | Description |
-| labels | Name content to variable |
-| separators | What separators the file uses |
+Name | Description 
+labels | Name content to variable
+separators | What separators the file uses
