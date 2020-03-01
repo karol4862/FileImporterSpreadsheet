@@ -4,7 +4,6 @@
   Content:
 
   Srele | 12
-  --- | --- 
   Morele | 9
 
 ## Example in use
