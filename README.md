@@ -30,7 +30,8 @@
 
 ## Props
 
-Name | Description 
---- | --- 
-labels | Assign content to variable
-separators | What separators the file uses
+Name | Description | Type
+--- | --- | ---
+labels | Assign content to variable | Array
+separators | What separators the file uses | Array
+parse | If want to parse from JSON | Boolean

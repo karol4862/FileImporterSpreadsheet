@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <CsvImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" />
+    <CsvImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" parse/>
   </div>
 </template>
 

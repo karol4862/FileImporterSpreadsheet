@@ -28,7 +28,8 @@ export default {
             }
             row = row.split(this.firstSeparator);
             this.labels.forEach((label, index) => {
-              if (row[index]) obj[label] = row[index].trim();
+              if (row[index] && !this.parse) obj[label] = row[index].trim();
+              else if (row[index] && this.parse) obj[label] = JSON.parse(row[index].trim());
               else obj.error = true;
             });
             if (!obj.error) this.myData.push(obj);
@@ -48,6 +49,7 @@ export default {
   props: {
     labels: Array,
     separators: Array,
+    parse: Boolean,
   },
 };
 </script>
