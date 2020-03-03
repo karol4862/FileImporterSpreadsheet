@@ -32,5 +32,5 @@
 
 Name | Description 
 --- | --- 
-labels | Name content to variable
+labels | Assign content to variable
 separators | What separators the file uses
