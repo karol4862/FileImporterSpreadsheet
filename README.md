@@ -1,11 +1,14 @@
-# CsvImport
+# Spreadsheet importer ( Excel, CSV )
+## Description
+Component that allows you to import spreadsheet file into web. You can map data by use labels.
+Based on Vue!
 
-## CSV File Content
+## File Data
 
-  Title | Amount
+  Name | Age
   --- | --- 
-  Srele | 12
-  Morele | 9
+  Rick | 64
+  Morty | 13
 
 ## Example in use
 
@@ -33,5 +36,5 @@
 Name | Description | Type
 --- | --- | ---
 labels | Assign content to variable | Array
-separators | What separators the file uses | Array
+separators | Separators used in file extension | Array
 parse | If want to parse from JSON | Boolean
