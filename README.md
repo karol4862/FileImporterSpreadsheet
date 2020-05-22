@@ -13,7 +13,7 @@ Based on Vue!
 ## Example in use
 
 ```
-  <CsvImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" />
+  <SpreadsheetImport v-model="val"  :labels="['name', 'surname']" :separators="[',']" />
 ```
 
 ## Output
@@ -22,10 +22,12 @@ Based on Vue!
     return {
       val:[
         {
-          name: "Srele",
-          surname: "12"
+          name: "Rick",
+          age: "64"
+        },{
+          name: "Morty",
+          age: "13"
         }
-        ...
       ],
     };
   }
